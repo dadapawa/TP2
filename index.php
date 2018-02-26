@@ -27,7 +27,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <p> TEST AJOUT</p>
-
+	<p> BLE </P>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>

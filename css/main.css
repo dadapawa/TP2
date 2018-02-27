@@ -111,6 +111,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    border-bottom: groove;
 }
 
 body {
@@ -167,6 +168,118 @@ footer {
 p {
     text-align: center;
     margin: 0;
+}
+
+
+/* MISE EN PAGE SECTION HEADER */
+.TitleRow {
+    color:white;
+	width:auto;
+    height:100px;
+}
+.TitleRow .Title {
+    position: absolute;
+    left: 120px;
+    top: -18px;
+}
+.TitleRow .Menu {
+    position: absolute;
+    left: 110px;
+    top: 49px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+	z-index:50;
+	width:100%;
+}
+    .Menu .ul{
+        list-style-type:none;
+    }
+	.Menu .active {
+		background-color: grey;
+		color: black;
+	}
+	.Menu li {
+		float: left;
+	}
+	.Menu li a {
+		display: block;
+        color: white;
+        width:100px;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	.Menu li a:hover:not(.active) {
+		background-color: #111;
+    }	
+    .Menu form {
+        position: absolute;
+        top: 5px;
+        right: 150px;
+    }
+    .Menu form input{
+        height: 35px;
+    }
+    .Menu form button{
+        height: 35px;
+        width: 90px;
+    }
+    
+.Banner {
+	width: 100%;
+	height: 75px;
+    text-align:center;
+	
+}
+.BannerImage {
+	height:70px;
+    width: auto;
+    display:inline-block;
+	margin-left: 2.5%;
+	margin-right:2.5%;
+	
+	/*centre l'image sur la Banner*/
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+/* MISE EN PAGE SECTION INSCRIPTIONS */
+
+.Sujet{
+    margin-top:17px;
+    float: left;
+    width:10%;
+    margin-left:5%;
+    height: 250px;
+    line-height: 75px;  
+}
+    
+.Boite{
+    height: 250px;
+    float: left;
+    width:30%;
+    margin-right:5%; 
+    margin-bottom:17px;
+}
+    .Boite input{
+        height: 35px;
+        margin-top: 34px;
+        width: 95%;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+.Inscription button{
+    float:right;
+    width:100px;
+    height: 40px;
+    margin-top: 34px;
+    margin-right: 5%;
 }
 
 

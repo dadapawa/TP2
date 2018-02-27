@@ -183,7 +183,6 @@ p {
     width: 30%;
     height: 80%;
     margin-right: 2%;
-    display: block;
 }
 
 .news_texte {
@@ -196,6 +195,10 @@ p {
     display: block;
     text-align : left;
     overflow: hidden;
+}
+
+.news_texte>span>a:visited {
+    color: blue;
 }
 
 /* ==========================================================================

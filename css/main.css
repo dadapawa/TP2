@@ -101,6 +101,7 @@ textarea {
 
 html {
     box-sizing: border-box;
+    font-family:Verdana,Tahoma, sans-serif;
 }
 
 
@@ -148,10 +149,19 @@ aside{
 footer {
     color: white;
     height: 60px;
-    background-color : gray;
+    text-align: center;
+    background-color : black;
     width: 100%;
     position: fixed;
     bottom: 0;
+}
+
+.footer_texte {
+    margin-top: 18px;
+}
+
+.footer_texte>a {
+    color: lightblue;
 }
 
 p {

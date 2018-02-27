@@ -198,6 +198,7 @@ p {
 .news_texte {
     padding-right: 4%;
     text-align: left;
+    font-size: 12px;
 }
 
 .news_texte>span {
